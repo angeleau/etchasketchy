@@ -1,1 +1,15 @@
-
+.gridContainer {
+    display: flex; 
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .gridContainer div {
+    background: teal;
+    border-left: 1px solid firebrick;
+    border-top: 1px solid firebrick;
+    border-bottom: 1px solid firebrick;
+    /*min-height: 10px;
+    min-width: 10px;*/
+    flex: 1 0 auto; 
+    aspect-ratio: 1 / 1;
+  }
